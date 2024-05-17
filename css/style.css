@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eeee;
+}
+.page{
+    background-color: white;
+    margin: 10% 20%;
+    max-height: 800px;
+    padding-left:20px ;
+    padding-right: 10px;
+    border-radius: 30px;
+    border-bottom-right-radius: 150px;
+
+}
+.page label{
+    color: gray;
+    font-weight: bold;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+.page .fals{
+    border: 1px solid red;
+}
+.page input{
+    color: #175990;
+}
+.page input:focus{
+    border: 2px solid #175990;
+    color: #175990;
+   font-weight: bold;
+}
+.page .icon{
+   margin: -20px -40px;
+}
+.page .icon button{
+    border: none;
+    background-color:white;
+}
+.page i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#175990;
+   font-size: 30px;
+   color: white;
+   cursor: pointer;
+}
+.page i:hover{
+    background-color: black;
+}
+.page .word{
+    margin-left: 30%;
+}
+.page .word h1{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.page .word span{
+    color: #175990;  
+}
+@media only screen and (max-width: 768px) {
+    .page .icon{
+        margin: -50px 30%;
+     }
+     .page .word{
+        margin-left: 5%;
+    }
+}
+
+
